@@ -65,6 +65,6 @@ main(board)
 #Код который спрашивает перезапустить игру или нет
 result = input("\nСыграть Еще раз? [y/n] > ")
 if result == 'y':
-    os.system('python "C:/Users/Маруф/OneDrive/Рабочий стол/game.py"') #Тут место C:/Users/Маруф/OneDrive/Рабочий стол/game.py, пишите директорую вашего файла
+    os.system('python "C:/Users/Маруф/OneDrive/Рабочий стол/game.py"') #Тут место C:/Users/Маруф/OneDrive/Рабочий стол/game.py, пишите расположение вашего файла
 else:
     print("\nПрограмма закрывается...")
